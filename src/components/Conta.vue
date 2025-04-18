@@ -23,6 +23,8 @@ import { computed, reactive } from 'vue';
                 }
             case 'multiplicacao':
                 return n1 * n2
+            default:
+                return 'Selecione uma operação'
         }
     })
     
